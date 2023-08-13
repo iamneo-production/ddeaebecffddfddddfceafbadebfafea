@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppTestSuite">
+    <test name="AppTest">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="com.ebay.AppTest"/>
+        </classes>
+    </test>
+</suite>
